@@ -1,0 +1,28 @@
+#! /bin/bash
+IFS=$'\n'
+out=($(curl -s dict://dict.org/d:$1))
+i=4
+stop="."
+if [ -z $1 ]
+then
+    echo "Error: no argument"
+    exit
+fi
+if [ ! -z ${out[$i]} ]
+then
+    str_sanitized=$(echo ${out[$i]} | tr -d '\r')
+    while [ ${str_sanitized} != "." ]
+    do
+        ((i++))
+        echo ${str_sanitized}
+        str_sanitized=$(echo ${out[$i]} | tr -d '\r')
+        while [ -z ${str_sanitized} ]
+        do
+            echo
+            ((i++))
+            str_sanitized=$(echo ${out[$i]} | tr -d '\r')
+        done
+    done
+else
+    echo "Error: no definition available for" $1
+fi
