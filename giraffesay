@@ -6,6 +6,20 @@
 flag="$1"
 string=""
 pad=""
+if [ -z $1 ]
+then
+    echo
+    echo "                  ._ o o           "
+    echo "                  \_\`-)\|_        "
+    echo "               ,\"\"       \\      "
+    echo "             ,\"  ## |   ಠ ಠ.      "
+    echo "           ,\" ##   ,-\\__    \`.  "
+    echo "         ,\"       /     \`--._;)  "
+    echo "       ,\"     ## /                "
+    echo "     ,\"   ##    /                 "
+    echo "   ,\"          /                  "
+    exit
+fi
 for arg in $@
 do
     string=${string}${pad}${arg}
