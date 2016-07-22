@@ -1,7 +1,7 @@
-## Bash scripts
+# Bash scripts
 These are some scripts I wrote in order to learn to use bash. I will update with more as I write them.
 
-#def \<word>
+##def \<word>
 Prints the definition of a word.
 ```
 Rohuns-MBP:~ rohu$ def java
@@ -43,14 +43,14 @@ computer science
 
 
 
-#giraffesay \<multiple> \<words>
+##giraffesay \<multiple> \<words>
 A giraffe says what you want him to. Unfortunately, it breaks with special characters (except spaces) like quotations so those will needed to be prefaced with a backslash.
 ```
-Rohuns-MBP:~ rohu$ giraffesay I\'m a giraffe!
-                               ________________
-                             /                  \
-                            |   I'm a giraffe!   |
-                             \__________________/
+Rohuns-MBP:~ rohu$ giraffesay I\'m a giraffe
+                               _______________
+                             /                 \
+                            |   I'm a giraffe   |
+                             \_________________/
 
                   ._ o o       /  
                   \_`-)\|_    /  
