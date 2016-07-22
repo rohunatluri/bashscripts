@@ -4,7 +4,7 @@ These are some scripts I wrote in order to learn to use bash. I will update with
 ##def \<word>
 Prints the definition of a word.
 ```
-Rohuns-MBP:~ rohu$ def java
+Rohuns-MBP:~ rohun$ def java
 Java \Ja"va\ (j[aum]"v[.a]), n.
    1. One of the islands of the Malay Archipelago belonging to
       the Netherlands.
@@ -34,7 +34,7 @@ Java \Ja"va\ (j[aum]"v[.a]), n.
       kept as a cage bird.
       [1913 Webster]
          
-Rohuns-MacBook-Pro:~ rohu$ def computer\ science
+Rohuns-MBP:~ rohun$ def computer\ science
 computer science
     n 1: the branch of engineering science that studies (with the
          aid of computers) computable processes and structures [syn:
@@ -43,10 +43,10 @@ computer science
 
 
 
-##giraffesay \<multiple> \<words>
+##giraffesay \<words ...>
 A giraffe says what you want him to. Unfortunately, it breaks with special characters (except spaces) like quotations so those will needed to be prefaced with a backslash.
 ```
-Rohuns-MBP:~ rohu$ giraffesay I\'m a giraffe
+Rohuns-MBP:~ rohun$ giraffesay I\'m a giraffe
                                _______________
                              /                 \
                             |   I'm a giraffe   |
