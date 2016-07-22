@@ -44,7 +44,7 @@ computer science
 
 
 #giraffesay \<multiple> \<words>
-A giraffe says what you want him to. Unfortunately, it breaks with special characters (except spaces) like apostrophes and quotations so those will needed to be prefaced with a backslash.
+A giraffe says what you want him to. Unfortunately, it breaks with special characters (except spaces) like quotations so those will needed to be prefaced with a backslash.
 ```
 Rohuns-MBP:~ rohu$ giraffesay I\'m a giraffe!
                                ________________
