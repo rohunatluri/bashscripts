@@ -1,0 +1,2 @@
+printf '\e[8;41;125t'
+curl wttr.in/$1
